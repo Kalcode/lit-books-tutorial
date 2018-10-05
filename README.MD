@@ -41,7 +41,7 @@ As of now we will use [mLab](https://mlab.com/). This section will cover setting
 
 ### Section 3 - Setup Dependencies/Structure
 
-Setting folders strucutre, getting package dependencies installed and installing [eslint](https://eslint.org/) and [stylelint](https://github.com/stylelint/stylelint).
+Setting folders structure, getting package dependencies installed and installing [eslint](https://eslint.org/) and [stylelint](https://github.com/stylelint/stylelint).
 
 ### Section 4 - Server Basic Express/Apollo Setup
 
