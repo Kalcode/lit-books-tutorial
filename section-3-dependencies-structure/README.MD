@@ -13,8 +13,8 @@ So the file would be `server/src/index.js`.
 *Make sure you are inside `./server` folder*
 
 ```sh
-yarn add --dev @babel/core @babel/cli @babel/preset-env @babel/node
-yarn add @babel/polyfill
+npm install --save-dev @babel/core @babel/cli @babel/preset-env @babel/node
+npm install @babel/polyfill
 ```
 
 TODO: A description and link of what this package does.
@@ -24,7 +24,7 @@ TODO: A description and link of what this package does.
 *Make sure you are inside `./server` folder*
 
 ```sh
-yarn add --dev nodemon
+npm install --save-dev nodemon
 ```
 
 TODO: A description and link of what this package does.
@@ -56,7 +56,7 @@ TODO: A description and link of what this file does.
 ### Installing Eslint
 
 ```sh
-yarn add --dev eslint babel-eslint
+npm install --save-dev eslint babel-eslint
 ```
 
 ### Configure Eslint
@@ -101,7 +101,7 @@ Refer to [package.json](server/package.json) of this section for complete exampl
 
 ### Console Log
 
-Lets test out our app. run the command inside `server` folder `yarn dev`.
+Lets test out our app. run the command inside `server` folder `npm run dev`.
 
 Your console should output
 

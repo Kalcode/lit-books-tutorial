@@ -33,7 +33,7 @@ Cover application requirements, sitemap, wireframe and planning the database sch
 
 ### Section 2 - Setup Prerequisites
 
-Cover setting up the project. Installing [Git](https://git-scm.com/), [Node.js](https://nodejs.org/en/), [yarn](https://yarnpkg.com), [create-react-app](https://github.com/facebook/create-react-app)
+Cover setting up the project. Installing [Git](https://git-scm.com/), [Node.js](https://nodejs.org/en/), [create-react-app](https://github.com/facebook/create-react-app)
 
 ### Section 2.1 - Setup MongoDB
 
