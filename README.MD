@@ -33,7 +33,7 @@ Cover application requirements, sitemap, wireframe and planning the database sch
 
 ### Section 2 - Setup Prerequisites
 
-Cover setting up prerequisites for project. Installing [Git](https://git-scm.com/), [Node.js](https://nodejs.org/en/), creating project folder and server fodler.
+Cover setting up prerequisites for project. Installing [Git](https://git-scm.com/), [Node.js](https://nodejs.org/en/), creating project folder and server folder.
 
 ### Section 2.1 - Setup MongoDB
 
