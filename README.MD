@@ -29,7 +29,7 @@ The client will use the following:
 
 ### Section 1 - Planning
 
-Cover application requirements and planning the database schema/models based on a hypothetical client requesting an application to be built.
+Cover application requirements, sitemap, wireframe and planning the database schema/models based on a hypothetical client requesting an application to be built.
 
 ### Section 2 - Setup Prerequisites
 
