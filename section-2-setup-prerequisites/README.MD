@@ -47,6 +47,12 @@ Open `VSCode` if its not opened and in the top left click `file` and `Open Folde
 
 ### Installing Node
 
+Node is what will run our `javascript` outside the browser context. Its know as a runtime engine.
+
+[Read more about Node.js at wiki](https://en.wikipedia.org/wiki/Node.js)
+
+---
+
 We will use the current version of node, as of this writting that would be `10.11.0`
 
 Follow the link and download and install [Node.js](https://nodejs.org/en/download/current/)
@@ -62,6 +68,12 @@ If one of the above had an error try googling `how to install node and npm` plus
 *NOTE: the key of learning web development is troubleshooting and resourcefulness. If you continue to have issues feel free to open a github issue. But please try to search for a solution the best you can first*
 
 ### Install Git
+
+`Git` is used to track incremental changes to our code. It allows us to maintain a history of changes. You can see on [this project](https://github.com/Kalcode/lit-books-tutorial/commits/master) there are a lot of tracked changes we call `commit`.
+
+[Read more about git at wiki](https://en.wikipedia.org/wiki/Git)
+
+---
 
 [Installing git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) should be straight forward. Follow the guide linked. 
 
@@ -115,3 +127,6 @@ node_module
 dist
 .env
 ```
+---
+
+`.gitignore` tells `Git` to ignore those folders or files. `node_modules` are a collection of software for node that can be reinstalled each time using `package.json`. So keeping the files in our repository is a waste of space. See we ignore that directory. `dist` is a folder we will use to "build" our application later. We also ignore that folder because we can always re-build it, the code there would be functionally a duplicate of our source code. `.env` will be used to store senstive information that shouldn't be pushed or saved in a public and argubaly private repository.
