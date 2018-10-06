@@ -12,7 +12,7 @@ The basic purpose of a site map during planning stage is to provide a list of al
 
 To use flesh app the models that will be required for the database. Keeping a rigid model using constraints helps keep your models clean from unnesscary data. The models become more predictable when pulling in data from them. 
 
-[Database Model documentation](Datebase-Model.MD)
+[Database Model documentation](Database-Model.MD)
 
 
 ### User Stories
