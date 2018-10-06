@@ -50,4 +50,4 @@ A books info and reviews
 
 ## Reference Image
 
-TODO: Add Site map image
+![Site Map](lit-books-site-map.png?raw=true "Site Map")
