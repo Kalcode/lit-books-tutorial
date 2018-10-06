@@ -6,8 +6,19 @@ The client has a request for an application. The [document sent over](Applicatio
 
 The basic purpose of a site map during planning stage is to provide a list of all the pages. A clear strucutre of where one page can lead.
 
-TODO: Sitemap
+[Sitemap documentation](Sitemap.MD)
 
-TODO: Add database graph
+### Datebase Modeling
 
-TODO: Add wireframe
+To use flesh app the models that will be required for the database. Keeping a rigid model using constraints helps keep your models clean from unnesscary data. The models become more predictable when pulling in data from them. 
+
+[Sitemap documentation](Datebase-Model.MD)
+
+
+### User Stories
+
+TODO
+
+### Wireframe
+
+TODO
