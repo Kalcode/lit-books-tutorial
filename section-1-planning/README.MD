@@ -1,5 +1,18 @@
 # Section 1 - Planning
 
+<!-- TOC -->
+
+- [Section 1 - Planning](#section-1---planning)
+  - [Request](#request)
+  - [Sitemap](#sitemap)
+    - [Datebase Modeling](#datebase-modeling)
+    - [User Stories](#user-stories)
+    - [Wireframe](#wireframe)
+
+<!-- /TOC -->
+
+## Request
+
 The client has a request for an application. The [document sent over](Application-Request.MD) describes the application. The document has also broken down what the requirements are.
 
 ## Sitemap
@@ -21,4 +34,4 @@ TODO
 
 ### Wireframe
 
-TODO
+[Wireframe documentation](Wireframe.MD)
