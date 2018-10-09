@@ -1,5 +1,20 @@
 # Section 3 - Setup Dependencies/Structure
 
+<!-- TOC -->
+
+- [Section 3 - Setup Dependencies/Structure](#section-3---setup-dependenciesstructure)
+  - [Setup](#setup)
+    - [Make `src` directory and `index.js` file](#make-src-directory-and-indexjs-file)
+    - [Installing [babel](https://babeljs.io/docs/en/usage)](#installing-babelhttpsbabeljsiodocsenusage)
+    - [Installing Nodemon](#installing-nodemon)
+    - [Configure `.babelrc`](#configure-babelrc)
+    - [Installing Eslint](#installing-eslint)
+    - [Configure Eslint](#configure-eslint)
+    - [Add dev script](#add-dev-script)
+    - [Console Log](#console-log)
+
+<!-- /TOC -->
+
 ## Setup
 
 ### Make `src` directory and `index.js` file

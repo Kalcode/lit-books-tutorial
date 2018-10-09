@@ -1,3 +1,24 @@
+# Section 2 - Setup Prerequisites
+
+<!-- TOC -->
+
+- [Section 2 - Setup Prerequisites](#section-2---setup-prerequisites)
+    - [Install an editor, `Visual Studio Code`](#install-an-editor-visual-studio-code)
+    - [Introduction to terminal](#introduction-to-terminal)
+    - [Creating a project folder](#creating-a-project-folder)
+      - [Using the terminal](#using-the-terminal)
+        - [Example on OSX](#example-on-osx)
+        - [Example on Windows Powershell](#example-on-windows-powershell)
+    - [Open project folder (VSCode)](#open-project-folder-vscode)
+    - [Installing Node](#installing-node)
+    - [Install Git](#install-git)
+    - [Git Init](#git-init)
+    - [Create Server folder](#create-server-folder)
+    - [Npm Init Server](#npm-init-server)
+    - [Gitignore](#gitignore)
+
+<!-- /TOC -->
+
 ### Install an editor, `Visual Studio Code`
 
 If you aren't familiar with and editor or the terminal I recommend installing [Visual Studio Code](https://code.visualstudio.com/)
