@@ -13,7 +13,7 @@
     - [User `/user/:id`](#user-userid)
     - [Users `/users`](#users-users)
     - [Profile `/profile`](#profile-profile)
-    - [Signup `/signup`](#signup-signup)
+    - [Sign Up `/signup`](#sign-up-signup)
     - [Login-Modal](#login-modal)
     - [Next Step](#next-step)
 
@@ -53,8 +53,8 @@ This is usually accomplished with low effort design tools. Pen and paper, whiteb
 ### Profile `/profile`
 ![Profile /profile](wireframe/8-Profile.png?raw=true "Profile /profile")
 
-### Signup `/signup`
-![Signup /signup](wireframe/9-Signup.png?raw=true "Signup /signup")
+### Sign Up `/signup`
+![Sign up /signup](wireframe/9-Sign-Up.png?raw=true "Signup /signup")
 
 ### Login-Modal
 ![Login-Modal](wireframe/10-Login-Modal.png?raw=true "Login-Modal")
