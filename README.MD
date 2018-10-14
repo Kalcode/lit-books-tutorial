@@ -58,7 +58,7 @@ Cover setting up prerequisites for project. Installing [Git](https://git-scm.com
 
 ### Section 2.1 - Setup MongoDB
 
-As of now we will use [mLab](https://mlab.com/). This section will cover setting up an account. Later it may expand to setting mongo up locally. Which isn't difficult but depending on the computers enviroment can have unexpected issues.
+This sub-section will focus primarily on setting up MongoDB on your local machine.
 
 ### Section 3 - Setup Dependencies/Structure
 

@@ -16,6 +16,7 @@
     - [Create Server folder](#create-server-folder)
     - [Npm Init Server](#npm-init-server)
     - [Gitignore](#gitignore)
+    - [Commiting in Git](#commiting-in-git)
 
 <!-- /TOC -->
 
@@ -114,6 +115,8 @@ This just means there isn't a respository setup, but is a good sign git is worki
 
 Git is a whole topic itself. This course will only cover adding your changes to a respository at the end of each section.
 
+A really good guide is [Atlassian's Getting Git Right](https://www.atlassian.com/git)
+
 ### Git Init
 
 Init your git repo using the following command in terminal inside your project folder `litbooks`
@@ -151,3 +154,58 @@ dist
 ---
 
 `.gitignore` tells `Git` to ignore those folders or files. `node_modules` are a collection of software for node that can be reinstalled each time using `package.json`. So keeping the files in our repository is a waste of space. See we ignore that directory. `dist` is a folder we will use to "build" our application later. We also ignore that folder because we can always re-build it, the code there would be functionally a duplicate of our source code. `.env` will be used to store senstive information that shouldn't be pushed or saved in a public and argubaly private repository.
+
+### Commiting in Git
+
+In your terminal for VSCode we will initialize a repository. Open your `terminal` if its not already opened.
+
+Make sure you are in the folder above `server`, or the `project` folder we have been calling `litbooks`. This is where our repository will live. It will contain both the `server` and `client` folders.
+
+Setup git username and email if you haven't with 
+
+```sh
+git config --global user.name "First and Last Name"
+git config --global user.email "your-email@domain.com"
+```
+
+```sh
+git init
+```
+
+To check the status of your git type 
+
+```sh
+git status
+```
+
+You should see: 
+
+```sh
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        server/
+```
+
+Then type:
+
+```sh
+git add .
+git commit --message "initialize repo"
+```
+
+Thats it, your work history as been saved. You can check by typing
+
+```sh
+git log
+```
+
+with an output similiar to below:
+
+```sh
+commit --random-numbers-and-characters-here (HEAD -> master)
+Author: First and Last Name
+Date:   Sun Oct 14 15:01:16 2018 -0500
+
+    initialize repo
+```
