@@ -12,6 +12,7 @@
     - [Configure Eslint](#configure-eslint)
     - [Add dev script](#add-dev-script)
     - [Console Log](#console-log)
+    - [Committing to Git](#committing-to-git)
 
 <!-- /TOC -->
 
@@ -88,6 +89,9 @@ Add the content to file
 	},
   "extends": "eslint:recommended",
   "rules": {
+    "no-console": "off",
+    "quotes": ["error", "single"],
+    "semi": ["error", "always"],
     "strict": 0
   }
 }
@@ -130,4 +134,14 @@ Hello World
 [nodemon] clean exit - waiting for changes before restart
 ```
 The `Hello World` is a good sign things are connected properly.
+
+### Committing to Git
+
+In your terminal type
+
+```
+git status
+git add .
+git commit -m "Section 3 setting up dependencies and structure"
+```
 
