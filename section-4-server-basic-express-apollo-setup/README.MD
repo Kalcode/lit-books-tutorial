@@ -1,8 +1,8 @@
-# Server Basic Express/Apollo Setup
+# Section 4 Server Basic Express/Apollo Setup
 
 <!-- TOC -->
 
-- [Server Basic Express/Apollo Setup](#server-basic-expressapollo-setup)
+- [Section 4 Server Basic Express/Apollo Setup](#section-4-server-basic-expressapollo-setup)
   - [Installing NPM Packages](#installing-npm-packages)
   - [Express Server](#express-server)
     - [Testing out the express server](#testing-out-the-express-server)

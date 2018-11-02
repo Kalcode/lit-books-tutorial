@@ -11,9 +11,10 @@
     - [What you need to know before:](#what-you-need-to-know-before)
     - [Section 1 - Planning](#section-1---planning)
     - [Section 2 - Setup Prerequisites](#section-2---setup-prerequisites)
-    - [Section 2.1 - Setup MongoDB](#section-21---setup-mongodb)
+      - [Section 2.1 - Setup MongoDB](#section-21---setup-mongodb)
     - [Section 3 - Setup Dependencies/Structure](#section-3---setup-dependenciesstructure)
     - [Section 4 - Server Basic Express/Apollo Setup](#section-4---server-basic-expressapollo-setup)
+      - [Section 4.1 Setting up environment variables](#section-41-setting-up-environment-variables)
     - [Section 5 - Server MongoDB Connect](#section-5---server-mongodb-connect)
     - [Section 6 - Server User Model](#section-6---server-user-model)
 
@@ -56,7 +57,7 @@ Cover application requirements, sitemap, wireframe and planning the database sch
 
 Cover setting up prerequisites for project. Installing [Git](https://git-scm.com/), [Node.js](https://nodejs.org/en/), creating project folder and server folder.
 
-### Section 2.1 - Setup MongoDB
+#### Section 2.1 - Setup MongoDB
 
 This sub-section will focus primarily on setting up MongoDB on your local machine.
 
@@ -68,6 +69,9 @@ Setting folders structure, getting package dependencies installed and installing
 
 Setting up express and apollo. Getting the server to boot and adding a few mock queries to test out the playground.
 
+#### Section 4.1 Setting up environment variables
+
+Setting up system environment variables.
 
 ### Section 5 - Server MongoDB Connect
 
