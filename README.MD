@@ -1,6 +1,24 @@
 # Lit Books Tutorial
 
-<!-- TOC -->autoauto- [Lit Books Tutorial](#lit-books-tutorial)auto  - [Objective](#objective)auto  - [Libraries](#libraries)auto    - [Server](#server)auto    - [Client](#client)auto  - [What this course will cover](#what-this-course-will-cover)auto    - [What you need to know before:](#what-you-need-to-know-before)auto    - [Section 1 - Planning](#section-1---planning)auto    - [Section 2 - Setup Prerequisites](#section-2---setup-prerequisites)auto      - [Section 2.1 - Setup MongoDB](#section-21---setup-mongodb)auto    - [Section 3 - Setup Dependencies/Structure](#section-3---setup-dependenciesstructure)auto    - [Section 4 - Server Basic Express/Apollo Setup](#section-4---server-basic-expressapollo-setup)auto      - [Section 4.1 Setting up environment variables](#section-41-setting-up-environment-variables)auto    - [Section 5 - Server MongoDB Connect](#section-5---server-mongodb-connect)auto    - [Section 6 - Server User Model](#section-6---server-user-model)autoauto<!-- /TOC -->
+<!-- TOC -->
+
+- [Lit Books Tutorial](#lit-books-tutorial)
+  - [Objective](#objective)
+  - [Libraries](#libraries)
+    - [Server](#server)
+    - [Client](#client)
+  - [What this course will cover](#what-this-course-will-cover)
+    - [What you need to know before:](#what-you-need-to-know-before)
+    - [Section 1 - Planning](#section-1---planning)
+    - [Section 2 - Setup Prerequisites](#section-2---setup-prerequisites)
+      - [Section 2.1 - Setup MongoDB](#section-21---setup-mongodb)
+    - [Section 3 - Setup Dependencies/Structure](#section-3---setup-dependenciesstructure)
+    - [Section 4 - Server Basic Express/Apollo Setup](#section-4---server-basic-expressapollo-setup)
+      - [Section 4.1 Setting up environment variables](#section-41-setting-up-environment-variables)
+    - [Section 5 - Server MongoDB Connect](#section-5---server-mongodb-connect)
+    - [Section 6 - Server User Model](#section-6---server-user-model)
+
+<!-- /TOC -->
 
 ## Objective
 
