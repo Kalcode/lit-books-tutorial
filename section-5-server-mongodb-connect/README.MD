@@ -9,6 +9,8 @@
   - [Installing Mongoose](#installing-mongoose)
     - [Installing Mongoose](#installing-mongoose-1)
   - [Connecting to the database](#connecting-to-the-database)
+  - [Wrapping up](#wrapping-up)
+  - [Committing to Git](#committing-to-git)
 
 <!-- /TOC -->
 
@@ -28,7 +30,7 @@ For Mac usually the instance must be started via a command `mongod` and a termin
 
 #### Troubleshooting
 
-We won't go in-depth into the nuances of setting up and running mongo. There are plenty of resources on the internet to find how to resolve most issues. Or how to get an instance of it running on your ststem. Feel free to open an issue on Github though to also seek help in resolving them.
+We won't go in-depth into the nuances of setting up and running mongo. There are plenty of resources on the internet to find how to resolve most issues. Or how to get an instance of it running on your system. Feel free to open an issue on Github though to also seek help in resolving them.
 
 ## Installing Mongoose
 
@@ -99,11 +101,23 @@ mongoose
   });
 ```
 
-first we call the library `mongoose`'s method [`connect`](https://mongoosejs.com/docs/4.x/docs/api.html#index_Mongoose-connect), which returns  a [`Promise`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise). So we chain a `then` after the promise is complete to print that it was sucessful.
+first we call the library `mongoose`'s method [`connect`](https://mongoosejs.com/docs/4.x/docs/api.html#index_Mongoose-connect), which returns  a [`Promise`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise). So we chain a `then` after the promise is complete to print that it was successful.
 
 Now when we start the server you will get a message similar below:
 
 ```sh
 GraphQL Server ready at http://localhost:4000/graphql
 Connected to MongoDB
+```
+
+## Wrapping up
+
+That is it. You are now connecting to your MongoDB server via your server. The next part covers refactoring the `index.js` file to separate connecting to the database and creating the Apollo server.
+
+## Committing to Git
+
+```
+git status
+git add .
+git commit -m "section 5 server mongodb connect"
 ```

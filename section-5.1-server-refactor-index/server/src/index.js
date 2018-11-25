@@ -1,29 +1,19 @@
 import 'dotenv/config';
-
-import { ApolloServer } from 'apollo-server-express';
 import express from 'express';
 
+import { createApollo } from './graphql/createApollo';
 import { connect } from './db/connect';
-import { typeDefs, resolvers } from './graphql';
 
 async function start() {
   const app = express();
 
   await connect();
 
-  
-  const graphqlServer = new ApolloServer({
-    typeDefs,
-    resolvers,
-  });
-  
-  graphqlServer.applyMiddleware({ app }); 
-  
-  
+  const graphqlServer = createApollo(app);
+
   app.get('/', (req, res) => {
     return res.send('Root Route');
   });
-
 
   const { port } = process.env; 
 

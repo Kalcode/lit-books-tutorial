@@ -12,6 +12,7 @@
     - [Connecting again](#connecting-again)
     - [Bring together the mongoose connection function](#bring-together-the-mongoose-connection-function)
   - [Separating the graphql connection.](#separating-the-graphql-connection)
+  - [Committing to Git](#committing-to-git)
 
 <!-- /TOC -->
 
@@ -194,3 +195,68 @@ This will call our async function connect, create our connection string from the
 
 
 ## Separating the graphql connection.
+
+This will be more straight forward. Create a new file inside the `graphql` folder called `createApollo.js`.
+
+`litbooks/server/src/graphql/createApollo.js`
+
+We will take the code inside `src/index.js` that creates the Apollo server and put it inside a function in the new file `createApollo.js`
+
+```js
+import { ApolloServer } from 'apollo-server-express';
+
+// change these imports to their individual files
+import { resolvers } from './resolvers';
+import { typeDefs } from './typeDefs'; 
+
+export function createApollo(app) {
+  const graphqlServer = new ApolloServer({
+    typeDefs,
+    resolvers,
+  });
+  
+  graphqlServer.applyMiddleware({ app }); 
+
+  return graphqlServer;
+}
+```
+
+You can now delete the `index.js` file we had inside `graphql` as we will now import `resolbers` and `typeDefs` separately.
+
+Your `server/src/index.js` files should be cleaned up now. Deleting the code no longer used.
+
+Your `start` function inside `index.js` should look like the file below:
+
+```js
+import 'dotenv/config';
+import express from 'express';
+
+import { createApollo } from './graphql/createApollo';
+import { connect } from './db/connect';
+
+async function start() {
+  const app = express();
+
+  await connect();
+
+  const graphqlServer = createApollo(app);
+
+  app.get('/', (req, res) => {
+    return res.send('Root Route');
+  });
+
+  const { port } = process.env; 
+
+  app.listen({ port }, () => {
+    console.log(`GraphQL Server ready at http://localhost:${port}${graphqlServer.graphqlPath}`);
+  });
+}
+```
+
+## Committing to Git
+
+```
+git status
+git add .
+git commit -m "section 5.1 server refactor index"
+```
