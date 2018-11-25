@@ -5,7 +5,7 @@
 - [Section 1 - Planning](#section-1---planning)
   - [Request](#request)
   - [Sitemap](#sitemap)
-    - [Datebase Modeling](#datebase-modeling)
+    - [Database Modeling](#database-modeling)
     - [User Stories](#user-stories)
     - [Wireframe](#wireframe)
 
@@ -21,9 +21,9 @@ The basic purpose of a site map during planning stage is to provide a list of al
 
 [Sitemap documentation](Sitemap.MD)
 
-### Datebase Modeling
+### Database Modeling
 
-To use flesh app the models that will be required for the database. Keeping a rigid model using constraints helps keep your models clean from unnesscary data. The models become more predictable when pulling in data from them. 
+To use flesh app the models that will be required for the database. Keeping a rigid model using constraints helps keep your models clean from unnecessary data. The models become more predictable when pulling in data from them. 
 
 [Database Model documentation](Database-Model.MD)
 
