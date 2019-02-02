@@ -105,14 +105,12 @@ import { User } from './db/models/User';
 
 ## Next
 
-We will add a resolver and query that will fetch the current list of users. This is an important resolver in our application as being able to retrieve a list of users is important for both an admin user and a regular user to explore other user reviews.
-
-*Note: We will be needing an admin user, but neither our schema or our database model accounts for this, as we continue in the app think about a way you may identify a user as an admin.*
+Authentication and Authorization is next. We need these components to be able to start creating users.
 
 ## Committing to Git
 
 ```
 git status
 git add .
-git commit -m "section 6 server use model"
+git commit -m "section 6 server user model"
 ```
