@@ -188,7 +188,7 @@ So the shape of `args` will look like this:
 ```js
 {
   username: "Test",
-  password: "Test',
+  password: "Test",
 }
 ```
 
