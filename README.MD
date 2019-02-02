@@ -17,7 +17,7 @@
       - [Section 4.1 Setting up environment variables](#section-41-setting-up-environment-variables)
     - [Section 5 - Server MongoDB Connect](#section-5---server-mongodb-connect)
     - [Section 6 - Server User Model](#section-6---server-user-model)
-    - [Section 6 - Server Auth](#section-6---server-auth)
+    - [Section 7 - Server Auth](#section-7---server-auth)
 
 <!-- /TOC -->
 
@@ -82,6 +82,6 @@ We will connect to our mongoDB instance.
 
 Setting up the user model as defined in the planning section. We will create the schema for mongoose
 
-### Section 6 - Server Auth
+### Section 7 - Server Auth
 
 Here we will wire up the basic signup and login in components for our Authentication and use JWT for Authorization.
