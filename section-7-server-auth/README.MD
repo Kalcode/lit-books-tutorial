@@ -585,5 +585,5 @@ We will add a resolver and query that will fetch the current list of users. This
 ```
 git status
 git add .
-git commit -m "section 5 server auth"
+git commit -m "section 7 server auth"
 ```
