@@ -24,5 +24,5 @@ const port = 4000; // defining the port we want to use, this will be moved to en
 
 // calling our express server to start and listen on the designated port
 app.listen({ port }, () => {
-  console.log(`GraphQL Server ready at http://localhost:${port}${graphqlServer.graphqlPath}`);
+  console.log(`GraphQL Server ready at http://localhost:${PORT}${graphqlServer.graphqlPath}`);
 });

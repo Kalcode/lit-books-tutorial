@@ -26,7 +26,7 @@ In our code earlier we had the following:
 const port = 4000; 
 
 app.listen({ port }, () => {
-  console.log(`GraphQL Server ready at http://localhost:${port}${graphqlServer.graphqlPath}`);
+  console.log(`GraphQL Server ready at http://localhost:${PORT}${graphqlServer.graphqlPath}`);
 });
 ```
 
@@ -93,7 +93,7 @@ Reference the file [index.js](./server/src/index.js)
 Inside your `index.js` change the `const port = 4000` line to the follow
 
 ```js
-const { port } = process.env; 
+const { PORT } = process.env; 
 ```
 
 you could also do

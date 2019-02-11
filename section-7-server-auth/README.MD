@@ -558,7 +558,7 @@ async function start() {
     return res.send('Root Route');
   });
 
-  const { port } = process.env; 
+  const { PORT } = process.env; 
 
   app.listen({ port }, () => {
     console.log(`GraphQL Server ready at http://localhost:${port}${graphqlServer.graphqlPath}`);

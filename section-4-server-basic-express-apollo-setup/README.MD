@@ -236,7 +236,7 @@ graphqlServer.applyMiddleware({ app });
 const port = 4000;
 
 app.listen({ port }, () => {
-  console.log(`GraphQL Server ready at http://localhost:${port}${graphqlServer.graphqlPath}`);
+  console.log(`GraphQL Server ready at http://localhost:${PORT}${graphqlServer.graphqlPath}`);
 });
 ```
 
@@ -251,7 +251,7 @@ const graphqlServer = new ApolloServer({
 
 This line `graphqlServer.applyMiddleware({ app });` attaches the newly created graphqlServer to our express `app`.
 
-We change our console.log to ``console.log(`GraphQL Server ready at http://localhost:${port}${graphqlServer.graphqlPath}`);`` using the new class instance `graphqlServer` that has a property `graphqlPath` representing the url to connect to our `graphql` server.
+We change our console.log to ``console.log(`GraphQL Server ready at http://localhost:${PORT}${graphqlServer.graphqlPath}`);`` using the new class instance `graphqlServer` that has a property `graphqlPath` representing the url to connect to our `graphql` server.
 
 Final file should look like:
 
@@ -277,7 +277,7 @@ graphqlServer.applyMiddleware({ app });
 const port = 4000;
 
 app.listen({ port }, () => {
-  console.log(`GraphQL Server ready at http://localhost:${port}${graphqlServer.graphqlPath}`);
+  console.log(`GraphQL Server ready at http://localhost:${PORT}${graphqlServer.graphqlPath}`);
 });
 ```
 

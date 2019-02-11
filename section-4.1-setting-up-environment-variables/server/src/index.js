@@ -19,8 +19,8 @@ const graphqlServer = new ApolloServer({
 
 graphqlServer.applyMiddleware({ app }); 
 
-const { port } = process.env; 
+const { PORT } = process.env; 
 
 app.listen({ port }, () => {
-  console.log(`GraphQL Server ready at http://localhost:${port}${graphqlServer.graphqlPath}`);
+  console.log(`GraphQL Server ready at http://localhost:${PORT}${graphqlServer.graphqlPath}`);
 });

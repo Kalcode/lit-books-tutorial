@@ -69,10 +69,10 @@ async function start() {
 
   graphqlServer.applyMiddleware({ app }); 
 
-  const { port } = process.env; 
+  const { PORT } = process.env; 
 
   app.listen({ port }, () => {
-    console.log(`GraphQL Server ready at http://localhost:${port}${graphqlServer.graphqlPath}`);
+    console.log(`GraphQL Server ready at http://localhost:${PORT}${graphqlServer.graphqlPath}`);
   });
 }
 ```
@@ -81,7 +81,7 @@ After the function lets call it
 
 ```js
   app.listen({ port }, () => {
-    console.log(`GraphQL Server ready at http://localhost:${port}${graphqlServer.graphqlPath}`);
+    console.log(`GraphQL Server ready at http://localhost:${PORT}${graphqlServer.graphqlPath}`);
   });
 }
 
@@ -245,10 +245,10 @@ async function start() {
     return res.send('Root Route');
   });
 
-  const { port } = process.env; 
+  const { PORT } = process.env; 
 
   app.listen({ port }, () => {
-    console.log(`GraphQL Server ready at http://localhost:${port}${graphqlServer.graphqlPath}`);
+    console.log(`GraphQL Server ready at http://localhost:${PORT}${graphqlServer.graphqlPath}`);
   });
 }
 ```
