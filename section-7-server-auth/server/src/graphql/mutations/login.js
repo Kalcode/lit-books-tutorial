@@ -4,10 +4,8 @@ import jsonwebtoken from 'jsonwebtoken';
 
 import { User } from '../../db/models/User';
 
-export async function login(obj, args, context) {
+export async function login(obj, args) {
   const { username, password } = args;
- 
-  console.log(context);
 
   const user = await User.findOne({ username });
 
