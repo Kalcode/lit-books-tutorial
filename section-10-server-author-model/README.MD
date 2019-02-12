@@ -26,7 +26,8 @@ Create a new file inside `db` folder
 
 `server/src/db/models/Author.js`
 ```js
-import mongoose, { Schema } from 'mongoose';
+import mongoose from 'mongoose';
+const { Schema } = mongoose;
 
 const authorSchema = new mongoose.Schema({
   name: String,

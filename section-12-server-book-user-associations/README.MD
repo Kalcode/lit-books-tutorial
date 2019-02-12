@@ -16,7 +16,8 @@ The user needs a relationship with many reviews
 
 `server/src/db/models/User.js`
 ```js
-import mongoose, { Schema } from 'mongoose'; // Update import
+import mongoose from 'mongoose';
+const { Schema } = mongoose; // Update import
 
 const userSchema = new mongoose.Schema({
   username: {
@@ -39,7 +40,8 @@ The book needs a relationship with many reviews and a relationship with an autho
 
 `server/src/db/models/Book.js`
 ```js
-import mongoose, { Schema } from 'mongoose'; // Update Import
+import mongoose from 'mongoose';
+const { Schema } = mongoose; // Update Import
 
 const bookSchema = new mongoose.Schema({
   author: { type: Schema.Types.ObjectId, ref: 'Author' }, // Add relationship
