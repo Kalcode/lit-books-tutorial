@@ -26,7 +26,7 @@ Create a new file inside `db` folder
 
 `server/src/db/models/Author.js`
 ```js
-import mongoose from 'mongoose';
+import mongoose, { Schema } from 'mongoose';
 
 const authorSchema = new mongoose.Schema({
   name: String,
@@ -43,7 +43,7 @@ on the `books` field we use an array `[]` and an object inside to define the ass
 
 ## Next
 
-Author is the next model we will create.
+Review is the next model we will create.
 
 ## Committing to Git
 

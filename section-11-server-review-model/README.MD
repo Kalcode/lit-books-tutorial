@@ -1,49 +1,53 @@
-# Section 10 Server Author Model
+# Section 11 Server Review Model
 <!-- TOC -->
 
-- [Section 10 Server Author Model](#section-10-server-author-model)
-  - [Author](#author)
-  - [Author Schema](#author-schema)
+- [Section 11 Server Review Model](#section-11-server-review-model)
+  - [Review](#review)
+  - [Review Schema](#review-schema)
   - [Next](#next)
   - [Committing to Git](#committing-to-git)
 
 <!-- /TOC -->
 
-## Author
+## Review
 
-The [author model that we defined earlier](../section-1-planning/Database-Model.MD) has the following properties:
+The [Review model that we defined earlier](../section-1-planning/Database-Model.MD) has the following properties:
 
 ```md
-name: String
-books: an array of ObjectIDs
+description: String
+rating: Number
+user: ObjectID
+book: ObjectID
 ```
 
-Here we will hook up the [Author association](https://mongoosejs.com/docs/populate.html) to books.
+Here we will hook up the [Author association](https://mongoosejs.com/docs/populate.html) to book and user.
 
-## Author Schema
+## Review Schema
 
 Create a new file inside `db` folder
 
 `server/src/db/models/Author.js`
 ```js
-import mongoose from 'mongoose';
+import mongoose, { Schema } from 'mongoose';
 
-const authorSchema = new mongoose.Schema({
-  name: String,
-  books: [{ type: Schema.Types.ObjectId, ref: 'Book' }],
+const reviewSchema = new mongoose.Schema({
+  book: { type: Schema.Types.ObjectId, ref: 'Book' },
+  description: String,
+  rating: Number,
+  user: { type: Schema.Types.ObjectId, ref: 'User' },
 },
 { 
   timestamps: true,
 });
 
-export const Author = mongoose.model('Author', authorSchema);
+export const Review = mongoose.model('Review', reviewSchema);
 ```
 
-on the `books` field we use an array `[]` and an object inside to define the association. Here we are saying an array of Book types.
+here both associations `book` and `user` are only a single relationship. The review belongs to one book and one user.
 
 ## Next
 
-Author is the next model we will create.
+Next is adding the associations for the user and book models.
 
 ## Committing to Git
 
