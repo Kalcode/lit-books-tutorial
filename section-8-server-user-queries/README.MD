@@ -359,6 +359,7 @@ Its important to be able to fetch a list of users so we can let a logged in user
 
 ## Next
 
+Book is the next model we will create. Up next is creating our schema, model.
 
 ## Committing to Git
 
