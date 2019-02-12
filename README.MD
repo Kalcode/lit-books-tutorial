@@ -19,6 +19,12 @@
     - [Section 6 - Server User Model](#section-6---server-user-model)
     - [Section 7 - Server Auth](#section-7---server-auth)
     - [Section 8 - Server User Queries](#section-8---server-user-queries)
+    - [Section 9 - Server Book Model](#section-9---server-book-model)
+    - [Section 10 - Server Author Model](#section-10---server-author-model)
+    - [Section 11 - Server Review Model](#section-11---server-review-model)
+    - [Section 12 - Server Book User Associations](#section-12---server-book-user-associations)
+    - [Section 13 - Server Author Resolvers](#section-13---server-author-resolvers)
+    - [Section 14 - Server Book Resolver](#section-14---server-book-resolver)
 
 <!-- /TOC -->
 
@@ -90,3 +96,27 @@ Here we will wire up the basic signup and login in components for our Authentica
 ### Section 8 - Server User Queries
 
 Creating the query for all users and by users id.
+
+### Section 9 - Server Book Model
+
+Creating the Schema and Model for books.
+
+### Section 10 - Server Author Model
+
+Creating the Schema and Model for authors.
+
+### Section 11 - Server Review Model
+
+Creating the Schema and Model for reviews.
+
+### Section 12 - Server Book User Associations
+
+Coming back around to creating the associations for Book and User models
+
+### Section 13 - Server Author Resolvers
+
+Add the mutation and query for the Author model
+
+### Section 14 - Server Book Resolver
+
+Add the mutation and query for the Book model
