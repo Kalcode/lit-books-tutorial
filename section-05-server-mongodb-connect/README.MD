@@ -16,7 +16,7 @@
 
 ## Connecting to MongoDB
 
-Refer back to [Section 2.2 - Running MongoDB](../section-2.2-running-mongodb/README.MD) to make sure your mongo is running. Your MongoDB instance must be started before you can connect to it.
+Refer back to [Section 2.2 - Running MongoDB](../section-02.2-running-mongodb/README.MD) to make sure your mongo is running. Your MongoDB instance must be started before you can connect to it.
 
 #### Windows/Linux
 

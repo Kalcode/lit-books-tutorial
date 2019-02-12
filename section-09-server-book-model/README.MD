@@ -1,7 +1,7 @@
 # Section 9 Server Book Model
 <!-- TOC -->
 
-- [Section 9 Server Book Model](#section-9-server-book-model)
+- [Section 9 Server Book Model](#section-09-server-book-model)
   - [Book](#book)
   - [Book Schema](#book-schema)
   - [Next](#next)

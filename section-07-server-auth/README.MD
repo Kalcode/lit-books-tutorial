@@ -1,7 +1,7 @@
 # Section 7 Server Auth
 <!-- TOC -->
 
-- [Section 7 Server Auth](#section-7-server-auth)
+- [Section 7 Server Auth](#section-07-server-auth)
   - [Auth - Authentication and Authorization](#auth---authentication-and-authorization)
   - [Packages](#packages)
   - [Installing packages](#installing-packages)

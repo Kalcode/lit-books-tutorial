@@ -11,7 +11,7 @@
 
 ## Review
 
-The [Review model that we defined earlier](../section-1-planning/Database-Model.MD) has the following properties:
+The [Review model that we defined earlier](../section-01-planning/Database-Model.MD) has the following properties:
 
 ```md
 description: String
@@ -54,5 +54,5 @@ Next is adding the associations for the user and book models.
 ```
 git status
 git add .
-git commit -m "section 8 server user queries"
+git commit -m "section 11 server review model"
 ```

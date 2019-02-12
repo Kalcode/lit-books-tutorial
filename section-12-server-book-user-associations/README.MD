@@ -1,7 +1,7 @@
-# Section 11 Server Review Model
+# Section 11 Server book user assocations
 <!-- TOC -->
 
-- [Section 11 Server Review Model](#section-11-server-review-model)
+- [Section 11 Server book user assocations](#section-11-server-book-user-assocations)
   - [User Associations](#user-associations)
   - [Book Associations](#book-associations)
   - [Context](#context)
@@ -67,5 +67,5 @@ Next is we can want to create mutations and queries for creating and getting an 
 ```
 git status
 git add .
-git commit -m "section 8 server user queries"
+git commit -m "section 12 server book user assocations"
 ```

@@ -1,7 +1,7 @@
 # Section 6 Server User Model
 <!-- TOC -->
 
-- [Section 6 Server User Model](#section-6-server-user-model)
+- [Section 6 Server User Model](#section-06-server-user-model)
   - [Creating a User Model](#creating-a-user-model)
   - [Schema and Model](#schema-and-model)
     - [creating the model folder](#creating-the-model-folder)
@@ -13,7 +13,7 @@
 
 ## Creating a User Model
 
-In [Section 1 Planning](../section-1-planning/README.MD) we discussed the requirements of the app and modeled our database. At the core to be able to use our app we need a user. Mongoose allows us to create a schema that will describe the kind of data our model in the database will consist of.
+In [Section 1 Planning](../section-01-planning/README.MD) we discussed the requirements of the app and modeled our database. At the core to be able to use our app we need a user. Mongoose allows us to create a schema that will describe the kind of data our model in the database will consist of.
 
 ## Schema and Model
 

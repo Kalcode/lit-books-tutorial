@@ -11,7 +11,7 @@
 
 ## Author
 
-The [author model that we defined earlier](../section-1-planning/Database-Model.MD) has the following properties:
+The [author model that we defined earlier](../section-01-planning/Database-Model.MD) has the following properties:
 
 ```md
 name: String

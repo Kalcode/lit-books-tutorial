@@ -1,7 +1,7 @@
 # Section 8 Server User Queries
 <!-- TOC -->
 
-- [Section 8 Server User Queries](#section-8-server-user-queries)
+- [Section 8 Server User Queries](#section-08-server-user-queries)
   - [Queries](#queries)
     - [Removing our example query](#removing-our-example-query)
   - [Type Definition](#type-definition)
@@ -23,7 +23,7 @@
 
 ## Queries
 
-[In section 4](../section-4-server-basic-express-apollo-setup/README.MD) we setup a basic query called `sayHello` that returned `Hello World`. 
+[In section 4](../section-04-server-basic-express-apollo-setup/README.MD) we setup a basic query called `sayHello` that returned `Hello World`. 
 
 GraphQL we define a [schema in the typedefs](https://graphql.org/learn/schema/) and use [resolvers](https://graphql.org/learn/execution/#root-fields-resolvers) to create the function that runs when that endpoint is hit.
 
