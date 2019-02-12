@@ -18,6 +18,7 @@
     - [Section 5 - Server MongoDB Connect](#section-5---server-mongodb-connect)
     - [Section 6 - Server User Model](#section-6---server-user-model)
     - [Section 7 - Server Auth](#section-7---server-auth)
+    - [Section 8 - Server User Queries](#section-8---server-user-queries)
 
 <!-- /TOC -->
 
@@ -80,8 +81,12 @@ We will connect to our mongoDB instance.
 
 ### Section 6 - Server User Model
 
-Setting up the user model as defined in the planning section. We will create the schema for mongoose
+Setting up the user model as defined in the planning section. We will create the schema for mongoose.
 
 ### Section 7 - Server Auth
 
 Here we will wire up the basic signup and login in components for our Authentication and use JWT for Authorization.
+
+### Section 8 - Server User Queries
+
+Creating the query for all users and by users id.

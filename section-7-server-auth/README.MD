@@ -576,7 +576,7 @@ This adds `user` to the `request` object in every express request. `request.user
 
 Now that we can create users we will want to be able to get a list of users.
 
-We will add a resolver and query that will fetch the current list of users. This is an important resolver in our application as being able to retrieve a list of users is important for both an admin user and a regular user to explore other user reviews.
+We will add a resolver and query that will fetch the current list of users. This is an important resolver in our application as being able to retrieve a list of users is useful for both an admin user and a regular user to explore other users and their reviews.
 
 *Note: We will be needing an admin user, but neither our schema or our database model accounts for this, as we continue in the app think about a way you may identify a user as an admin.*
 
