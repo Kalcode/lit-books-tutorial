@@ -27,5 +27,8 @@ export async function createBook(obj, args) {
     title: title.trim(),
   });
 
+  validAuthor.books.push(book._id);
+  await validAuthor.save();
+
   return book;
 }

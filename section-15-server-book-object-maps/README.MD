@@ -144,7 +144,7 @@ Instead of an id returning for author an object should return similar to the sha
 
 ## Next
 
-Whenever a book is added, we add the author to the book, we want the book to get added to the author too. We will also hook up the object mapping for author for a new field called `books`.
+Next is the object map for Authors `books`.
 
 ## Committing to Git
 

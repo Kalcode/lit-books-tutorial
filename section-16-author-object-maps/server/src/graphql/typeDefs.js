@@ -24,6 +24,7 @@ export const typeDefs = gql`
 
   type Author {
     _id: String
+    books: [Book]
     name: String
   }
 

@@ -103,6 +103,10 @@ export async function createBook(obj, args) {
     title: title.trim(),
   });
 
+  // Adding the book to the authors book list
+  validAuthor.books.push(book._id);
+  await validAuthor.save();
+
   return book;
 }
 ```
@@ -110,6 +114,15 @@ export async function createBook(obj, args) {
 Here we `const { author, description, published, title } = args;` we deconstruct the object args to get all the arguments from args.
 
 We need to make sure the `_id` of the author that is passed in is valid, so we find an author and see if they exist. If not we need to throw an error, then we check if the book has already been added with the same title, same thing we throw an error if it has. Finally we create the book if no errors happen at this point.
+
+After we create the book we want to save that book on the author too. That way the author also has its relationship with the book. 
+
+```js
+validAuthor.books.push(book._id);
+await validAuthor.save();
+```
+
+here we take the author we pulled from above and push the new id on the books array on the model instance, we then use `save` method to save the data to the database.
 
 ## Book queries
 

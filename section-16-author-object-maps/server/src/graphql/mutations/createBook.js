@@ -20,12 +20,16 @@ export async function createBook(obj, args) {
     throw new ApolloError('Book title already exists.');
   }
 
+  
   const book = await Book.create({
     author,
     description,
     published,
     title: title.trim(),
   });
+  
+  validAuthor.books.push(book._id);
+  await validAuthor.save();
 
   return book;
 }
