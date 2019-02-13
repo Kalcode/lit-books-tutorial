@@ -1,4 +1,4 @@
-# Section 11 Server book user assocations
+# Section 12 Server Book User Associations
 <!-- TOC -->
 
 - [Section 11 Server book user assocations](#section-11-server-book-user-assocations)
@@ -47,7 +47,7 @@ const bookSchema = new mongoose.Schema({
   author: { type: Schema.Types.ObjectId, ref: 'Author' }, // Add relationship
   description: String,
   title: String,
-  published: Date,
+  published: String,
   reviews: [{ type: Schema.Types.ObjectId, ref: 'Review' }], // Add relationship
 },
 { 

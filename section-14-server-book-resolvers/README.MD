@@ -1,4 +1,4 @@
-# Section 11 Server Review Model
+# Section 14 Server Book Resolvers
 <!-- TOC -->
 
 - [Section 11 Server Review Model](#section-11-server-review-model)

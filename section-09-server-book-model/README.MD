@@ -36,7 +36,7 @@ import mongoose from 'mongoose';
 const bookSchema = new mongoose.Schema({
   description: String,
   title: String,
-  published: Date,
+  published: String,
 },
 { 
   timestamps: true,
