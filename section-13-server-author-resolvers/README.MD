@@ -1,7 +1,7 @@
 # Section 13 Server Author Resolvers
 <!-- TOC -->
 
-- [Section 11 Server Review Model](#section-11-server-review-model)
+- [Section 13 Server Author Resolvers](#section-13-server-author-resolvers)
   - [Author Resolvers](#author-resolvers)
   - [Author Type](#author-type)
   - [Author Mutation](#author-mutation)

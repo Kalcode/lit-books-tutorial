@@ -1,7 +1,7 @@
 # Section 14 Server Book Resolvers
 <!-- TOC -->
 
-- [Section 11 Server Review Model](#section-11-server-review-model)
+- [Section 14 Server Book Resolvers](#section-14-server-book-resolvers)
   - [Book Resolvers](#book-resolvers)
   - [Book Type definitions](#book-type-definitions)
   - [Resolvers](#resolvers)

@@ -1,7 +1,7 @@
 # Section 12 Server Book User Associations
 <!-- TOC -->
 
-- [Section 11 Server book user assocations](#section-11-server-book-user-assocations)
+- [Section 12 Server Book User Associations](#section-12-server-book-user-associations)
   - [User Associations](#user-associations)
   - [Book Associations](#book-associations)
   - [Context](#context)

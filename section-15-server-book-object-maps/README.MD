@@ -1,19 +1,18 @@
 # Section 15 Server Book Object Maps
 <!-- TOC -->
 
-- [Section 11 Server Review Model](#section-11-server-review-model)
-  - [Book Resolvers](#book-resolvers)
-  - [Book Type definitions](#book-type-definitions)
-  - [Resolvers](#resolvers)
-  - [Book queries](#book-queries)
-  - [Hooking up the resolvers](#hooking-up-the-resolvers)
+- [Section 15 Server Book Object Maps](#section-15-server-book-object-maps)
+  - [Resolver Maps - Objects Mapping](#resolver-maps---objects-mapping)
+  - [Book's author resolver](#books-author-resolver)
+  - [Hooking up the resolver](#hooking-up-the-resolver)
+  - [Uodating Type Definition](#uodating-type-definition)
   - [Testing](#testing)
   - [Next](#next)
   - [Committing to Git](#committing-to-git)
 
 <!-- /TOC -->
 
-## Resolver Maps - Object Mapping
+## Resolver Maps - Objects Mapping
 
 `Query` and `Mutation` types describes the root resolvers. These are the resolvers used for entry into your endpoints. 
 
