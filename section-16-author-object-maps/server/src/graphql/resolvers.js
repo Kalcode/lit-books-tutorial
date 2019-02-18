@@ -10,6 +10,7 @@ import { signup } from './mutations/signup';
 import { user } from './queries/user';
 import { users } from './queries/users';
 import { Author } from './object-maps/Author';
+
 export const resolvers = {
   Author,
   Book,

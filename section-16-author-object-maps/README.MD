@@ -3,18 +3,14 @@
 <!-- TOC -->
 
 - [Section 16 Author Object Maps](#section-16-author-object-maps)
-  - [Next](#next)
   - [Author books Resolver](#author-books-resolver)
   - [Updating the type definiton](#updating-the-type-definiton)
   - [Hooking up the resolver](#hooking-up-the-resolver)
   - [Testing](#testing)
+  - [Next](#next)
   - [Committing to Git](#committing-to-git)
 
 <!-- /TOC -->
-
-## Next
-
-The author is also associated with many books. We will need a resolver to get the books that belong to the author.
 
 ## Author books Resolver
 
@@ -130,6 +126,10 @@ Similar in shape as below:
   }
 }
 ```
+
+## Next
+
+Now we will create the review resolvers.
 
 ## Committing to Git
 
