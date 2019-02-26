@@ -25,7 +25,7 @@ export async function createReview(obj, args, context) {
     throw new ApolloError('Invalid Book Id');
   }
 
-  const alreadyReviewed = await Review.find({
+  const alreadyReviewed = await Review.findOne({
     user: user._id,
     book: book,
   });

@@ -1,7 +1,7 @@
 # Section 7 Server Auth
 <!-- TOC -->
 
-- [Section 7 Server Auth](#section-07-server-auth)
+- [Section 7 Server Auth](#section-7-server-auth)
   - [Auth - Authentication and Authorization](#auth---authentication-and-authorization)
   - [Packages](#packages)
   - [Installing packages](#installing-packages)
@@ -65,7 +65,7 @@ We will use both logging in and signing up as a `mutation`. Arguably login resol
 
 This most straight-forward reason is query component in `react-apollo` typically auto fire. Where mutation require a call to a function, more closer to a user clicking `login`.
 
-In general the rule though is query is for resolvers with no side-effects, like mutating data, and mutating is for side-effecs.
+In general the rule though is query is for resolvers with no side-effects, like mutating data, and mutating is for side-effects.
 
 ## Signup query
 

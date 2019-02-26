@@ -8,6 +8,7 @@ import { createAuthor } from './mutations/createAuthor';
 import { createBook } from './mutations/createBook';
 import { createReview } from './mutations/createReview';
 import { login } from './mutations/login';
+import { Review } from './object-maps/Review';
 import { review } from './queries/review';
 import { reviews } from './queries/reviews';
 import { signup } from './mutations/signup';
@@ -17,6 +18,7 @@ import { users } from './queries/users';
 export const resolvers = {
   Author,
   Book,
+  Review,
   Query: {
     author,
     authors,

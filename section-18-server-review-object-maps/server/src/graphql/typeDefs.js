@@ -47,7 +47,9 @@ export const typeDefs = gql`
     author: Author!
     description: String!
     published: String!
+    reviews: [Review]
     title: String!
+    rating: Int!
   }
 
   type Review {
