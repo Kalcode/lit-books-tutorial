@@ -28,9 +28,9 @@ export const Author = {
 };
 ```
 
-We will use a different appoarch to getting the books associated with the author. Import `Author` model, so it doesn't clash with the object `Author` in the same file we will [rename it on import `AuthorModel` using the import `as`.](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import#Rename_multiple_exports_during_import);
+We will use a different approach to getting the books associated with the author. Import `Author` model, so it doesn't clash with the object `Author` in the same file we will [rename it on import `AuthorModel` using the import `as`.](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import#Rename_multiple_exports_during_import);
 
-`AutorModel` has a method called `populate` where we can pass the object and tell it what field we want to populate. We then want to return the objects `graphql` is expecting, which is the array of books, `obj.books`.
+[`AutorModel` has a method called `populate`](https://mongoosejs.com/docs/populate.html) where we can pass the object and tell it what field we want to populate. We then want to return the objects `graphql` is expecting, which is the array of books, `obj.books`.
 
 Important to note here is that before we call `populate` `books` on `obj` is an array of id strings. When we call populate it mutates the obj in place with the actual array of book objects.
 

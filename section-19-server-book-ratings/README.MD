@@ -13,7 +13,6 @@
   - [Updating the Book resolver](#updating-the-book-resolver)
     - [Updating the type](#updating-the-type)
     - [Updating book resolver](#updating-book-resolver)
-  - [Testing out](#testing-out)
   - [Next](#next)
   - [Committing to Git](#committing-to-git)
 
@@ -161,55 +160,25 @@ author: async function(obj) {
 }
 ```
 
-We will leave finding an author by using `findById` but we will use `populate` to grab the reviews. We will need to import `Book` as a different name so it doesn't collide with the `const Book`.
+We will leave finding an author by using `findById` but we will use `populate` to grab the reviews.
 
 `server/src/graphql/object-maps/Book`
 ```js
 import { Author } from '../../db/models/Author';
-import { Book as BookModel } from '../../db/models/Book'; // Add import
+import { Book as BookModel } from '../../db/models/Book';
+import { Types } from 'mongoose';
 
 export const Book = {
   author: async function(obj) {
     return Author.findById(obj.author);
   },
-  reviews: async function(obj) { // Add resolver
-    await BookModel.populate(obj, 'reviews'); // Add resolver
+  reviews: async function(obj) {
+    await BookModel.populate(obj, 'reviews');
 
-    return obj.reviews; // Add resolver
+    return obj.reviews;
   },
 };
 ```
-
-## Testing out
-
-Once again we need to test our new additions, navigate to `http://localhost:4000` and run the following query:
-
-```graphql
-query {
-  users {
-    username
-    reviews {
-      description
-      rating
-      book {
-        title
-        description
-        published
-        reviews {
-          _id
-          description
-          rating
-        }
-      }
-    }
-  }
-}
-
-```
-
-This will request our `users` list, and our object-map we just set up for `reviews` should return the reviews of that username, then we request `book` that we set-up which returns the book associated with the `review` and then make a circle from `book` by calling the `reviews` resolver we created that should return the `review` again.
-
-If nothing returns make sure you have added a review to a book with a user token from the previous section.
 
 ## Next
 

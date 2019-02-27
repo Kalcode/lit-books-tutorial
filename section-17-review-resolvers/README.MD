@@ -17,7 +17,7 @@
 
 ## Review
 
-Reveiw is made up of:
+Review is made up of:
 
 * book
 * description
