@@ -1,8 +1,8 @@
-# Section 17 Review Resolvers
+# Section 17 Server Review Resolvers
 
 <!-- TOC -->
 
-- [Section 17 Review Resolvers](#section-17-review-resolvers)
+- [Section 17 Server Review Resolvers](#section-17-server-review-resolvers)
   - [Review](#review)
   - [Review Type Definition](#review-type-definition)
   - [Mutation Create Review](#mutation-create-review)
@@ -282,7 +282,7 @@ Example:
 }
 ```
 
-Now we can create a review with our new token. This token does expire after a day, if that happens just re-login.
+Now we can create a review with our new token. This token does expire after a day, if that happens just re-login and replace with the new token.
 
 Make sure you query for a books `_id` to use in the mutation like below:
 
@@ -340,5 +340,5 @@ Now we will create the review object-maps..
 ```
 git status
 git add .
-git commit -m "section 17 review resolvers"
+git commit -m "section 17 server review resolvers"
 ```

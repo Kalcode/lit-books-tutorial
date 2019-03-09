@@ -1,8 +1,8 @@
-# Section 16 Author Object Maps
+# Section 16 Server Author Object Maps
 
 <!-- TOC -->
 
-- [Section 16 Author Object Maps](#section-16-author-object-maps)
+- [Section 16 Server Author Object Maps](#section-16-server-author-object-maps)
   - [Author books Resolver](#author-books-resolver)
   - [Updating the type definiton](#updating-the-type-definiton)
   - [Hooking up the resolver](#hooking-up-the-resolver)
@@ -136,5 +136,5 @@ Now we will create the review resolvers.
 ```
 git status
 git add .
-git commit -m "section 16 author object maps"
+git commit -m "section 16 serverauthor object maps"
 ```

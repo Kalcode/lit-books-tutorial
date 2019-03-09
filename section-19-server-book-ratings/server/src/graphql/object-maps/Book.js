@@ -13,7 +13,7 @@ export const Book = {
     return obj.reviews;
   },
   rating: async function(obj) {
-    const ratings = await Review.aggregate([
+    const results = await Review.aggregate([
       {
         '$match': {
           'book': new Types.ObjectId(obj._id),
@@ -27,6 +27,6 @@ export const Book = {
       },
     ]);
 
-    return ratings[0] ? ratings[0].rating : 0;
+    return results[0] ? results[0].rating : 0;
   }
 };
