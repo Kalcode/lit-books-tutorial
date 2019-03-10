@@ -8,6 +8,7 @@
     - [Updating Typedef](#updating-typedef)
     - [Mongo Aggregate Functions](#mongo-aggregate-functions)
     - [Adding the function to book](#adding-the-function-to-book)
+  - [Testing](#testing)
   - [Next](#next)
   - [Committing to Git](#committing-to-git)
 
@@ -185,6 +186,46 @@ Since our resolver is expecting a `Int` to be return for the field `rating` we j
 
 ```js
 return results[0] ? results[0].rating : 0;
+```
+
+## Testing
+
+Navigate to the `playground` at `http://localhost:4000/graphql` and lets make a query for our books rating.
+
+Make sure you have created a review from [section 17](../section-17-server-review-resolvers/README.MD)
+
+Have three books created and then create some reviews for them. Leave one book with no reviews. Then when you use the query below
+
+`query`
+```graphql
+query {
+	books {
+    description
+    rating
+  }
+}
+```
+
+You get a similar output as below:
+
+```json
+"books": [
+  {
+    "title": "Lord Of The Flies",
+    "published": "1951",
+    "rating": 3
+  },
+  {
+    "title": "The Stuff",
+    "published": "2012",
+    "rating": 3
+  },
+  {
+    "title": "The Stuff Part 2",
+    "published": "2014",
+    "rating": 0
+  }
+]
 ```
 
 ## Next
