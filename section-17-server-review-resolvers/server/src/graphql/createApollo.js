@@ -7,10 +7,10 @@ export function createApollo(app) {
   const graphqlServer = new ApolloServer({
     typeDefs,
     resolvers,
-    context: async function(stuff) {
-      // console.log(stuff);
+    context: async function({ req }) {
+
       return {
-        user: stuff.req.user,
+        user: req.user,
       };
     },
   });

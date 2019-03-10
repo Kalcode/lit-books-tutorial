@@ -1,4 +1,4 @@
-import { AuthenticationError, ApolloError } from 'apollo-server-core';
+import {  ApolloError } from 'apollo-server-core';
 
 import { Book } from '../../db/models/Book';
 import { Review } from '../../db/models/Review';
@@ -8,10 +8,6 @@ export async function createReview(obj, args, context) {
   const { book, description, rating } = args;
 
   const { user } = context;
-
-  if (!user) {
-    throw new AuthenticationError('Unauthorized or Invalid token');
-  }
 
   const foundUser = await User.findById(user._id);
 

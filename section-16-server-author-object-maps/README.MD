@@ -129,7 +129,7 @@ Similar in shape as below:
 
 ## Next
 
-Now we will create the review resolvers.
+Before we can create reviews we need to add the user context for the next section inside our request object. 
 
 ## Committing to Git
 
