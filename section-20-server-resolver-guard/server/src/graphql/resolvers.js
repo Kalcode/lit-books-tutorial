@@ -1,3 +1,4 @@
+import { authGuard } from '../helpers/authGuard';
 import { Author } from './object-maps/Author';
 import { author } from './queries/author';
 import { authors } from './queries/authors';
@@ -12,10 +13,9 @@ import { Review } from './object-maps/Review';
 import { review } from './queries/review';
 import { reviews } from './queries/reviews';
 import { signup } from './mutations/signup';
+import { User } from './object-maps/User';
 import { user } from './queries/user';
 import { users } from './queries/users';
-import { User } from './object-maps/User';
-import { authGuard } from '../helpers/authGuard';
 
 export const resolvers = {
   Author,
