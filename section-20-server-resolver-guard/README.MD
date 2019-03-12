@@ -82,7 +82,7 @@ Navigate to the `playground` at `http://localhost:4000/graphql` and get rid of t
 
 ## Next
 
-Next we will start setting up the client using [create react app](https://facebook.github.io/create-react-app/). 
+We will create a current user query, this will send back the info of the user associated with the sent token.
 
 ## Committing to Git
 
