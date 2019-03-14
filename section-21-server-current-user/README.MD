@@ -1,8 +1,8 @@
-# Section 19 Server Current User
+# Section 21 Server Current User
 
 <!-- TOC -->
 
-- [Section 19 Server Current User](#section-19-server-current-user)
+- [Section 21 Server Current User](#section-21-server-current-user)
   - [Current User](#current-user)
     - [New token request](#new-token-request)
   - [New Type](#new-type)

@@ -1,8 +1,8 @@
-# Section 19 Server Resolver Guard
+# Section 20 Server Resolver Guard
 
 <!-- TOC -->
 
-- [Section 19 Server Resolver Guard](#section-19-server-resolver-guard)
+- [Section 20 Server Resolver Guard](#section-20-server-resolver-guard)
   - [Guard Resolver](#guard-resolver)
   - [Resolver Guard Function](#resolver-guard-function)
   - [Using the guard](#using-the-guard)
